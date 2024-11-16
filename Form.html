@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>BD</h2>
+                <span>Bhavani Departmental</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="Form.html">Forms</a></li>
+                    <li><a href="Table.html">Tables</a></li>
+                    <li><a href="#">UI Colors</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="main">
+            <header class="main-header">
+                <div class="header-left">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="header-right">
+                    <div class="user-info">
+                        <img src="avatar.jpg" alt="User">
+                        <span>Bhupendra</span>
+                    </div>
+                </div>
+            </header>
+            <div class="formm">
+              <form action="Table.html"  >
+                <label for="">Name</label>
+                <input type="text" id="name" placeholder="Name">
+                <br><br>
+                <label for="">Contact </label>
+                <input type="text" id="contact" placeholder="Mobile number">
+                <br><br>
+                <label for="">Items</label>
+                <select name="" id="itemss">
+                    <option value="">Select option</option>
+                    <option value="T-shirt">T-shirt </option>
+                    <option value="Gun edition shoes">Gun edition shoes</option>
+                    <option value="Rounded hat">Rounded hat</option>
+                    <option value="Rusted ropes">Rusted ropes</option>
+                    <option value="Remote Control Car">Remote Control Car</option>
+                </select>
+                <br><br>
+                <label for="">Quantity</label>
+                <input type="text" id="quantity" placeholder="per piece ">
+                <br><br>
+                <label for="">Price </label>
+                <input type="text" id="price" placeholder="In rupees">
+                <br><br>
+                <label for="">odering date</label>
+                <input type="date" id="date">
+                <br><br>
+                <label for="">Payment method</label>
+                <select name="" id="paymentt">
+                    <option value="">Select payment method</option>
+                    <option value="Cash">Cash</option>
+                    <option value="Online">Online</option>
+                    <option value="Cheque">Cheque</option>
+                    <option value="Credit">Credit</option>
+
+                </select>
+                <br><br>
+                 <input type="submit" onclick="fet()">
+                 </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="forminsrt.js"></script>   
+</body>
+</html>
+
+

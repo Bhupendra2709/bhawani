@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 20px;
+}
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sidebar .logo h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.sidebar .logo span {
+  font-size: 15px;
+}
+.sidebar nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar nav ul li {
+  margin-bottom: 20px;
+}
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-left h1 {
+  color: rgb(51, 51, 51);
+}
+
+.header-right .user-info {
+  display: flex;
+  align-items: center;
+}
+.header-right .user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-right .user-info span {
+  font-size: 1rem;
+  color: rgb(51, 51, 51);
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 22%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card h3 {
+  color: rgb(85, 85, 85);
+  margin-bottom: 10px;
+}
+.card h2 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  color: rgb(76, 175, 80);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.graphs {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+
+.chart-placeholder {
+  height: 200px;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+.widget ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.widget ul li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.widget ul li span {
+  font-weight: bold;
+}/*# sourceMappingURL=dashboard.css.map */

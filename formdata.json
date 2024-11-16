@@ -1,0 +1,54 @@
+{
+  "Distributor": [
+    {
+      "name": "raj",
+      "contact": "6261457894",
+      "item": "Gun edition shows",
+      "quantity": "4",
+      "price": "626",
+      "date": "27/10/2024",
+      "payment": "Cash",
+      "id": "3aaf"
+    },
+    {
+      "name": "ravi",
+      "contact": "6248557894",
+      "item": "Rounded hat",
+      "quantity": "2",
+      "price": "696",
+      "date": "27/10/2024",
+      "payment": "Cheque",
+      "id": "1be6"
+    },
+    {
+      "name": "bhupii",
+      "contact": "5645664",
+      "item": "Rusted ropes",
+      "quantity": "2",
+      "price": "789",
+      "date": "2024-10-22",
+      "payment": "Credit",
+      "id": "73c7"
+    },
+    {
+      "name": "bhupii",
+      "contact": "5645664",
+      "item": "Remote Control Car",
+      "quantity": "2",
+      "price": "789",
+      "date": "2024-10-10",
+      "payment": "Cash",
+      "id": "dccc"
+    },
+    {
+      "name": "nikhil",
+      "contact": "4649846",
+      "item": "Gun edition shows",
+      "quantity": "5",
+      "price": "26",
+      "date": "2024-10-29",
+      "payment": "Cash",
+      "id": "127c"
+    }
+  ]
+}
